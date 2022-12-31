@@ -159,3 +159,23 @@
 .w-full {
   width: 100%;
 }
+
+.rounded-full	{
+  border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.rounded-none {
+  border-radius: 0px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-0 {
+  border-width: 0px;
+}
