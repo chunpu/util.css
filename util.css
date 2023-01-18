@@ -1,10 +1,6 @@
 /* 完全兼容 tailwind.css, 不要直接修改 */
 
 /* flex */
-.flex {
-  display: flex;
-}
-
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -114,6 +110,14 @@
 }
 
 /* display */
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
 .block {
   display: block;
 }
@@ -181,7 +185,7 @@
   width: 100%;
 }
 
-.rounded-full	{
+.rounded-full {
   border-radius: 9999px;
 }
 
@@ -246,4 +250,70 @@
 
 .object-none {
   object-fit: none;
+}
+
+/* cursor */
+.cursor-auto {
+  cursor: auto;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+/* aspect-ratio */
+.aspect-auto {
+  aspect-ratio: auto;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+/* layout */
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+.inset-y-0 {
+  top: 0px;
+  bottom: 0px;
+}
+.top-0 {
+  top: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
 }
